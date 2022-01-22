@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:weightSum="10"
+    android:layout_margin="10dp"
+    android:background="@color/SkyBlue">
+
+
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Theres no title"
+        android:id="@+id/titulonote"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:autoSizeTextType="uniform"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+
+
+    <TextView
+        android:text="Theres no description"
+        android:id="@+id/descnote"
+        android:autoSizeTextType="uniform"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+</LinearLayout>

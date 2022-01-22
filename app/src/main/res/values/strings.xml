@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ThinkerNote</string>
+    <string name="urlStart">https://thinkernote.000webhostapp.com/</string>
+</resources>
